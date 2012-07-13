@@ -14,6 +14,26 @@ namespace PatternExamples
             SimpleFactoryClientTest();
 
             FactoryClientTest();
+
+            AbstractFactoryClientTest();
+        }
+
+
+
+        static void AbstractFactoryClientTest()
+        {
+            Console.WriteLine("This is Abstract factory pattern");
+
+
+            IAbstractFactory factoryBJ = new FactoryBJ();
+            factoryBJ.CreateProductCloth().foo();
+            factoryBJ.CreateProductShoes().foo();
+
+
+            IAbstractFactory factorySH = new FactorySH();
+            factorySH.CreateProductCloth().foo();
+            factorySH.CreateProductShoes().foo();
+           
         }
 
         static void FactoryClientTest()
