@@ -16,9 +16,17 @@ namespace PatternExamples
             FactoryClientTest();
 
             AbstractFactoryClientTest();
+
+            AdapterClientTest();
+
         }
 
-
+        static void AdapterClientTest()
+        {
+            Console.WriteLine("This is Adapter pattern");
+            Target t = new Adapter();
+            t.PrintSth(12);
+        }
 
         static void AbstractFactoryClientTest()
         {
