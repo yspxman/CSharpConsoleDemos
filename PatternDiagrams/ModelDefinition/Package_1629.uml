@@ -1,0 +1,1101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="8d534fcb-b39d-42ba-aa73-c999807940f6"
+  name="Factory"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="cc68f89b-2ead-4cde-afb4-d04d882c9614"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Factory"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="13b94b9e-bcd8-4d49-864c-bf1cf17786c5"
+        name="FactoryA"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="06515489-f180-4d23-88aa-512c92be8f78"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Work/WP7/MyProjects/DesignPatternExamples/SimpleFactory/bin/Debug/SimpleFactory.exe Namespace=Factory Type=FactoryA"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e1da15ed-125c-4558-9dc7-df77bc8c9fb5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a70d6fa8-1314-468f-b6aa-5a486b45eaee">
+                <propertyInstance
+                  Id="df10c7e4-5b48-4e43-b87b-ae59c9a1ae9a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ea9c0263-d3f5-4ab6-bb1b-b8c43e708639">
+                <propertyInstance
+                  Id="182411c5-b864-41a3-9593-cc4137e7431a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="07c3af92-ee4b-4902-9c86-ae7d0c366a3d">
+                <propertyInstance
+                  Id="0b191fb1-f0db-46ef-ab9e-2c1f9f775262"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7e3c3ac7-3373-471e-9102-844537a5d2cd">
+                <propertyInstance
+                  Id="328249a8-a9b2-4246-96a9-3d2832d6f477"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1b4789e9-8b56-47b7-8a27-ee97d726fa48">
+                <propertyInstance
+                  Id="4bc1f950-9af4-4a36-940c-1eea105732b3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="4bd91ea7-6cc4-45a2-8801-be06d0dd02ee">
+            <interfaceMoniker
+              Id="ca1390b3-3588-48e8-99e9-f373f3744e3f"
+              LastKnownName="IFactory"
+              LastKnownLocation="Package_1629.uml" />
+          </interfaceRealization>
+          <dependency
+            Id="ef8a41f6-de1a-4c16-82b4-be1b45675e31">
+            <classMoniker
+              Id="3da1f270-9923-4cec-96cf-c8b03f77a4ea"
+              LastKnownName="ProductA"
+              LastKnownLocation="Package_1629.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="34a0338c-99a7-400b-b7a6-4db5f1ec72c8"
+            name="_p"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ee591659-5bb8-4402-8396-2dbe3e4b38f6"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Work/WP7/MyProjects/DesignPatternExamples/SimpleFactory/bin/Debug/SimpleFactory.exe Namespace=Factory Type=FactoryA Member=_p"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="372e869b-8663-48b7-8c65-05254ad58da0"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e55ee03-f6bb-4e04-a6a5-a592f7c819cd">
+                    <propertyInstance
+                      Id="a086b292-c55e-4fd0-b5f8-d8671062a2a1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6f0f927-5ece-4a92-a5dd-306896a36cc4">
+                    <propertyInstance
+                      Id="8316e873-66ab-46f1-9969-532381d6663b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edc5b355-d16e-4b5d-a77e-3096b4b34346">
+                    <propertyInstance
+                      Id="32abcf80-1fa6-4fb9-94e0-bf3d5d7449f0"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8678a463-b5d9-4ee5-857c-c81acaa602d5">
+                    <propertyInstance
+                      Id="e50cfdcd-9c5e-4e39-9f62-548d1b392c97"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25fe06ef-3778-433a-89c5-0217615de9f0">
+                    <propertyInstance
+                      Id="aaf7c57c-0fa7-4070-9b6b-f2d900330153"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="32dbe1b0-fed7-403f-bff8-4923d9db6dd9"
+                LastKnownName="IProduct"
+                LastKnownLocation="Package_1629.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="13089c9c-c2d3-4e7f-af75-9c48a3608d4b"
+            name="CreateProduct"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fbac5568-44e1-4743-980b-4ec6d14e5309"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Work/WP7/MyProjects/DesignPatternExamples/SimpleFactory/bin/Debug/SimpleFactory.exe Namespace=Factory Type=FactoryA Member=CreateProduct"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f6078919-95ff-4e17-ad9c-9b0aa09c593e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a6f13cd-fe90-4b0e-90a8-1e7a6e23ab51">
+                    <propertyInstance
+                      Id="0ff3f6c6-e70c-4d80-8115-a9e349af47ab"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c06a97c-9fa0-4838-9437-50dcf4744018">
+                    <propertyInstance
+                      Id="e36b2462-89e4-4f9b-8edf-397c89d18ca3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ebd4531-9d43-4255-a8c7-568b1450f107">
+                    <propertyInstance
+                      Id="0255d9ba-a492-4874-b981-173eae310df7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb7c80a1-969d-4c65-adaf-9eecb662af28">
+                    <propertyInstance
+                      Id="5cabc9a3-9dda-476e-8d38-7b6f6d1a8826"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9d4296e-08ad-4a8f-b6fe-3ac7dfd1a96d">
+                    <propertyInstance
+                      Id="b9818326-fc30-43b3-801c-4bea4561d64a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b113f964-0d7e-4731-a97c-c6081231b9b0"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="32dbe1b0-fed7-403f-bff8-4923d9db6dd9"
+                      LastKnownName="IProduct"
+                      LastKnownLocation="Package_1629.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b03a4e23-83ed-425e-ae83-87e88c00c6d2"
+            name="FactoryA"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="238b67ca-61a2-4ac5-953b-3ba2a0487df2"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Work/WP7/MyProjects/DesignPatternExamples/SimpleFactory/bin/Debug/SimpleFactory.exe Namespace=Factory Type=FactoryA Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d1a9c34a-b0b6-4434-934c-7dcab9eff3b1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8cc0279-3e3d-4216-a392-4f8d62edb5d1">
+                    <propertyInstance
+                      Id="ce8c7813-788b-4151-a31e-cf7b72ffd40e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="476c137a-4649-4720-912a-442888229ca5">
+                    <propertyInstance
+                      Id="7caa016d-bcdd-4f6f-82fd-2ed9653f31a2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1096262e-3fc3-4a9f-a5dc-20957f022d19">
+                    <propertyInstance
+                      Id="c7a1b485-eac7-4b1d-86c8-e31dda69a29f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="381cff2b-6535-4cf4-a22a-65a2e6424a7f">
+                    <propertyInstance
+                      Id="084ae86f-5a01-49b6-83ad-c0de3dbccf3e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76b6a075-ff36-4cd0-bb1b-46a6460ad2e1">
+                    <propertyInstance
+                      Id="22e02ef8-0a40-45e8-9b64-3b9cbed63a72"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="32dbe1b0-fed7-403f-bff8-4923d9db6dd9"
+        name="IProduct"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="b376caf3-a7c5-45a3-bd55-24e70ce9565b"
+            handle="viewcode://./CodeSchema_Interface?Assembly=file:///C:/Work/WP7/MyProjects/DesignPatternExamples/SimpleFactory/bin/Debug/SimpleFactory.exe Namespace=Factory Type=IProduct"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="01073818-340c-40ca-bb6b-d5e75c3d1ba7"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="082ceab0-ff3c-48dc-83e3-a1a67f55ffc6">
+                <propertyInstance
+                  Id="a95e8faf-7eb3-49b8-a036-2405599b2c1a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="65464326-1e3c-4ba8-8db4-706717d0b84b">
+                <propertyInstance
+                  Id="20da5610-84c0-4338-ad16-d13c49d2f0f5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0ebf3c75-ee62-4065-b15e-a53ce567cd4d">
+                <propertyInstance
+                  Id="e58dcbbc-9a15-4c25-a85a-a143016953b6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8dc9da2a-7aa7-446c-b7b6-3cbabc400ea2">
+                <propertyInstance
+                  Id="ad3f8b48-710f-4f6f-b191-636a65a91189"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="fb62f79b-7e1e-45d7-ac23-6d4dcd100abe"
+            name="foo"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="bf41acc7-2934-4499-9e70-a87c1610bf80"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Work/WP7/MyProjects/DesignPatternExamples/SimpleFactory/bin/Debug/SimpleFactory.exe Namespace=Factory Type=IProduct Member=foo"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d7a73dc9-46f5-4a15-b0f0-c8eff2b68a59"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a445e91-eab6-4359-bb9a-3bc1bedcd1c4">
+                    <propertyInstance
+                      Id="150fc801-d4e3-4d99-8007-3df3aee49fa9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5423dd7e-790e-4245-9414-7abef8af4967">
+                    <propertyInstance
+                      Id="24249724-97be-41f2-8dd1-11762663394c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8ee0911-fadd-4db6-b5f2-ae1033dea51c">
+                    <propertyInstance
+                      Id="30447266-0f9f-4b39-85d1-6932bff9b818"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6bed078-a8a0-4570-86fb-658ad0e8ea1e">
+                    <propertyInstance
+                      Id="927127aa-ccb1-48f1-ad07-b921f084f738"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4375155-b34d-474e-aeb5-100a35d1118c">
+                    <propertyInstance
+                      Id="44bf3003-7ee5-456d-8386-dc7604874a39"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="ca1390b3-3588-48e8-99e9-f373f3744e3f"
+        name="IFactory"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="97e08657-3705-4b63-b321-99ba7ee51491"
+            handle="viewcode://./CodeSchema_Interface?Assembly=file:///C:/Work/WP7/MyProjects/DesignPatternExamples/SimpleFactory/bin/Debug/SimpleFactory.exe Namespace=Factory Type=IFactory"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f0956ae7-8379-498e-ab8e-5cd02a4a661a"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a3445847-1ceb-4d20-bb30-cc16a72130f4">
+                <propertyInstance
+                  Id="815ce690-89c2-4915-b27b-1d9f19a91b90"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2c469dc0-ad9b-40b7-a4d6-e2c40a89317f">
+                <propertyInstance
+                  Id="0546a38e-463e-4e0e-b072-8c99bc833897"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d14771ef-6f3f-4639-93b7-6e88c07e3ae4">
+                <propertyInstance
+                  Id="d9396908-c4da-4631-8a20-1927c9b0f6ca"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0f0b835f-34fe-4dba-b9b4-fd2e22560ae9">
+                <propertyInstance
+                  Id="351685e7-78f9-427e-b5d6-cff9e3496b18"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="46e8ba1d-05f7-43bb-8013-2ed414246055"
+            name="CreateProduct"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ab399efd-4089-4928-b771-d3507f4618da"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Work/WP7/MyProjects/DesignPatternExamples/SimpleFactory/bin/Debug/SimpleFactory.exe Namespace=Factory Type=IFactory Member=CreateProduct"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b79badb7-8958-4a3a-9954-025b3deea40b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba405ffe-02fe-4670-9be6-33177068d84e">
+                    <propertyInstance
+                      Id="ed1135a3-c5d1-4fd7-a320-7b513d642769"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d51919f4-752b-4c34-adf5-181421910be3">
+                    <propertyInstance
+                      Id="c51f6efd-28f1-44d8-af35-a35a1c4fbab2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5176f46-ea7f-440c-bd5a-0ac3df925ec0">
+                    <propertyInstance
+                      Id="9bbfca8d-7b11-4ff2-8705-6a9c89b1d751"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8858519e-21c8-404c-850c-b706d16b26f7">
+                    <propertyInstance
+                      Id="9ff3a3a9-18aa-47a8-a350-fddc3c2d97bc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="229e2e92-efb2-43ed-9670-1a177662ba52">
+                    <propertyInstance
+                      Id="cff22ae2-a645-4d19-aa78-ef016341c67e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a75e379f-9705-4291-87b5-393ead5fdfa3"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="32dbe1b0-fed7-403f-bff8-4923d9db6dd9"
+                      LastKnownName="IProduct"
+                      LastKnownLocation="Package_1629.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b094c69e-4efe-430e-8a9c-67537fdfd318"
+        name="ProductB"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6cc0e430-9555-4f8c-84f2-f24d0ada5ec2"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Work/WP7/MyProjects/DesignPatternExamples/SimpleFactory/bin/Debug/SimpleFactory.exe Namespace=Factory Type=ProductB"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="02ba2c99-5428-4af9-9d98-bd9075829b3e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="80a7c5ca-c724-4e3a-9c4c-fedb82ea02fd">
+                <propertyInstance
+                  Id="7d4e0c62-4196-4f0a-b3eb-0ed2d1976a1c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="26833cb9-ad69-4150-9af0-113ea1c6b667">
+                <propertyInstance
+                  Id="b8f6ae5f-fca9-4f12-8b23-b118e8b2b462"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="acb5c223-cb9c-4c25-bf8d-e927636fa2b6">
+                <propertyInstance
+                  Id="c976cf70-0df9-4ccf-8d40-d3446bc24e74"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d4d3ea72-a57c-4750-a2b9-a0df008b8c7c">
+                <propertyInstance
+                  Id="644a8ecc-a337-4bcf-914e-755e106f6b3e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7719f02c-0926-4b8a-9856-0dd312c2e28d">
+                <propertyInstance
+                  Id="ea76e17d-7bcc-4786-af96-eaec77b7a659"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="c3a09576-bd34-4d9f-a17b-647bd26a700a">
+            <interfaceMoniker
+              Id="32dbe1b0-fed7-403f-bff8-4923d9db6dd9"
+              LastKnownName="IProduct"
+              LastKnownLocation="Package_1629.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="766d8b86-bf14-473c-99c5-0cef5a3ab334"
+            name="foo"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="37c6f534-d8e4-448b-af6c-ddbfacb6b862"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Work/WP7/MyProjects/DesignPatternExamples/SimpleFactory/bin/Debug/SimpleFactory.exe Namespace=Factory Type=ProductB Member=foo"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a9ed55d9-f8b6-4978-91ef-734ff04f2463"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cfca36a-9099-47a0-aaa7-8dff9a7cc010">
+                    <propertyInstance
+                      Id="41ba63ab-44bd-43d5-a530-592549a36f94"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0bd5f52-c046-4113-b437-59293d28d9a7">
+                    <propertyInstance
+                      Id="8f1f49bf-2754-445b-bd30-e207e657ed1a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5703686b-d630-4513-a60a-8b7b4896d957">
+                    <propertyInstance
+                      Id="14ba4cc4-29c7-4657-98e8-03627eb5b177"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56c9dda3-b428-4e13-a359-09acc539a0f6">
+                    <propertyInstance
+                      Id="dd9addf9-bba4-4713-adce-1b4c734571c5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c37553ba-f58d-4518-b484-15f45f93e646">
+                    <propertyInstance
+                      Id="ddb352d9-7488-4bed-b57d-0beed90859f8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="5409c72f-7453-4cc7-96ed-903f4326c356"
+            name="ProductB"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="65597959-d1da-4c58-8681-59c3773ec448"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Work/WP7/MyProjects/DesignPatternExamples/SimpleFactory/bin/Debug/SimpleFactory.exe Namespace=Factory Type=ProductB Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8ebc829f-1fcd-44cb-886d-74d676144383"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0836c389-d042-4cec-9f34-98373e2ea4df">
+                    <propertyInstance
+                      Id="b8a6eded-4005-4aef-8f80-e077ae931167"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="077a71cb-6018-493e-8c71-e94bea778ef6">
+                    <propertyInstance
+                      Id="40655ad7-b7d1-401b-9af3-1ddd3798dbc8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c871f361-8717-4d3f-942c-70b52486f2c8">
+                    <propertyInstance
+                      Id="96e81555-4ffd-4ad1-9aeb-e51650304c47"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d0151ca-5518-4f7e-908f-109b6144c01a">
+                    <propertyInstance
+                      Id="31fa7386-800e-4e3a-87e6-333c53394f82"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24a26158-11d5-40e8-b387-79cb4732a961">
+                    <propertyInstance
+                      Id="eda463af-3b68-47a8-8a1b-845296e8ce4b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4db49b0c-65f5-4567-a6fc-32464f5199e9"
+        name="FactoryB"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="367e821c-6405-48d8-852a-8a0a04b7c05c"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Work/WP7/MyProjects/DesignPatternExamples/SimpleFactory/bin/Debug/SimpleFactory.exe Namespace=Factory Type=FactoryB"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1aa7846e-8a7a-4b3b-ad97-5f8c1a5e3dd8"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="01e4d7cd-72ae-4135-9278-606419077cbf">
+                <propertyInstance
+                  Id="04c455bb-f42a-4adf-a089-0910dfdb07ce"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8d7afb50-169c-4101-939a-35cbe5271d29">
+                <propertyInstance
+                  Id="4dd7339f-2474-4223-b7a3-8a289efd4f0f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5ee3b5e6-e393-4f6d-9f08-3ff3eff3ae87">
+                <propertyInstance
+                  Id="39f8c17a-4699-4530-bd4d-6efdbead3391"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6f16fab4-5ce4-4674-8bae-9f1836c54fdf">
+                <propertyInstance
+                  Id="31932d25-e2b8-46a8-84a4-f326789567b7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9b9c460f-62ad-4442-826f-dcc54f0b868f">
+                <propertyInstance
+                  Id="68338b14-b358-437f-9e99-7abb68fa7cee"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="a0b4d43c-5dbd-45c5-8e0e-041a7babd446">
+            <interfaceMoniker
+              Id="ca1390b3-3588-48e8-99e9-f373f3744e3f"
+              LastKnownName="IFactory"
+              LastKnownLocation="Package_1629.uml" />
+          </interfaceRealization>
+          <dependency
+            Id="d3bd8c56-9b5b-49a1-935d-a110e2cafeb6">
+            <classMoniker
+              Id="b094c69e-4efe-430e-8a9c-67537fdfd318"
+              LastKnownName="ProductB"
+              LastKnownLocation="Package_1629.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e9d30dd9-d4ed-4b71-a099-f2ec09013910"
+            name="CreateProduct"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5ee9ceab-06fb-4535-8776-681af9c8709f"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Work/WP7/MyProjects/DesignPatternExamples/SimpleFactory/bin/Debug/SimpleFactory.exe Namespace=Factory Type=FactoryB Member=CreateProduct"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7864f84e-42dc-40d2-bd80-b36a9138307d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="148a63a8-a85e-4ddd-a1c2-83341ad09a17">
+                    <propertyInstance
+                      Id="ab4fc33b-1294-4ec1-b0d8-4eb7e832e0ab"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41e9d2b2-1e3c-4bf2-b343-367e406152b9">
+                    <propertyInstance
+                      Id="2077dca4-5599-4962-a7b3-8c8bf1a4621d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c01238ed-190e-4719-9fb2-2f73cd333408">
+                    <propertyInstance
+                      Id="3120a0ae-8d3d-4e2d-8afd-2cd3f92825ff"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cdf1daf0-2208-4c08-a6b1-f1d799166c3b">
+                    <propertyInstance
+                      Id="017e9762-c32d-47c5-8bf2-a41889e7b101"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b80f2e3b-26bb-45bf-aa41-7e99da019372">
+                    <propertyInstance
+                      Id="4ea25c5d-80c3-484f-b5dc-beb096a9ebf6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="19faf059-2a75-40da-b910-2661de2290ce"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="32dbe1b0-fed7-403f-bff8-4923d9db6dd9"
+                      LastKnownName="IProduct"
+                      LastKnownLocation="Package_1629.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="45990741-8510-4105-bb6c-d48af2f3b63d"
+            name="FactoryB"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="20a8dd28-90ce-426e-af42-74ab5b7f816a"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Work/WP7/MyProjects/DesignPatternExamples/SimpleFactory/bin/Debug/SimpleFactory.exe Namespace=Factory Type=FactoryB Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bc33e1ec-21d0-4286-88d0-3065b448b414"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a00e3454-44ab-4f4c-aa8f-e4c8969f9f42">
+                    <propertyInstance
+                      Id="65935fef-c641-4528-8bac-913dfa9686e7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a6f34ba-ecee-43f6-9e9e-a4105cde8078">
+                    <propertyInstance
+                      Id="f501dbff-c752-47b0-96af-8cff2966af6a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64aa972d-d090-4237-9042-0f691c6bac15">
+                    <propertyInstance
+                      Id="f0c1af81-7b6f-4837-86cb-d4c804ecc403"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a82ac623-dd08-411a-b6a0-18d8a3bc6854">
+                    <propertyInstance
+                      Id="65e7ceed-f7ab-4c87-ae5b-b74f988d3c4a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="573af80f-8c11-4a63-9505-a58f83996835">
+                    <propertyInstance
+                      Id="f0446178-6445-4213-b277-7b040b9c192b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3da1f270-9923-4cec-96cf-c8b03f77a4ea"
+        name="ProductA"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e1f6652a-8f3a-4ff2-94f0-1c46effd8cae"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Work/WP7/MyProjects/DesignPatternExamples/SimpleFactory/bin/Debug/SimpleFactory.exe Namespace=Factory Type=ProductA"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6e6e243b-bc04-4dfc-aa0f-3493682194b7"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1ef3450b-5e13-4a80-a4a4-9e957e8772d3">
+                <propertyInstance
+                  Id="f3458363-354e-436f-a6c1-8024dde33724"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0503d548-fb2f-400b-a102-793c4574fdcf">
+                <propertyInstance
+                  Id="a99b0f9c-32d7-4f21-b770-cee120bdf955"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="265f68d7-1e98-459a-8b8f-84723d4b45fd">
+                <propertyInstance
+                  Id="6a1bf77c-2cfe-49bb-a708-e407e38f1c21"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ad6c2ecd-c1c9-443c-81d4-840f8fd3354c">
+                <propertyInstance
+                  Id="3d950a89-0cb6-4766-a285-6d94b3f2f134"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d7e22862-9536-4458-bb67-27f87ce957e5">
+                <propertyInstance
+                  Id="1a6ce5b9-0817-445c-8efc-4634b429c9ab"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="c273a751-2c53-4153-9e10-52336dba9ac0">
+            <interfaceMoniker
+              Id="32dbe1b0-fed7-403f-bff8-4923d9db6dd9"
+              LastKnownName="IProduct"
+              LastKnownLocation="Package_1629.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="a278af60-8a7f-49d1-8011-5c5073a365ce"
+            name="foo"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7921c4af-533b-46ff-8711-c86e7e5aa467"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Work/WP7/MyProjects/DesignPatternExamples/SimpleFactory/bin/Debug/SimpleFactory.exe Namespace=Factory Type=ProductA Member=foo"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0c4df25c-9062-49bb-8e58-bb741598dc8d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f114e56d-b4f9-40bc-847b-8dc768935164">
+                    <propertyInstance
+                      Id="521c98c8-c7a0-4be3-9600-96a7d69e7fc1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5a3e6e5-743b-495c-a512-b4fdad9eafb7">
+                    <propertyInstance
+                      Id="790aa5f3-c0c1-44e8-9fe1-cb3659c325e7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d38f25d5-ef84-40dd-8bb0-f2f4d1cbb745">
+                    <propertyInstance
+                      Id="0c8bed3e-05f8-4826-90b3-dda11412f7f7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3bcd734-f838-4829-b745-fa31c0fa5ef4">
+                    <propertyInstance
+                      Id="d230c372-1578-4af0-bff5-b8049fec5a68"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="681faf90-13e2-4071-855a-08048fd50fd6">
+                    <propertyInstance
+                      Id="d1330805-ef7f-46dd-9837-93f1ba099fd4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="2b1b6a1e-84c1-4f5d-805f-acefd739efbf"
+            name="ProductA"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="83bdca23-bfa6-4082-9fd9-09f9e1de22fb"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Work/WP7/MyProjects/DesignPatternExamples/SimpleFactory/bin/Debug/SimpleFactory.exe Namespace=Factory Type=ProductA Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a21ffb96-0738-4165-a0bc-5c2c5d753901"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f1b0d3d-548a-4a42-850e-5203f3d66455">
+                    <propertyInstance
+                      Id="bcb4cf1e-7859-4a40-93d8-179d2f16207f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db8f313a-bb95-4bca-ba3f-1da631eda71e">
+                    <propertyInstance
+                      Id="54e4efe3-fa47-4e74-82b9-47a9076a158b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8875f366-83e3-48aa-873c-7f8818d4d280">
+                    <propertyInstance
+                      Id="87d47a3f-6f78-4ab1-86d1-2aa454d1717f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9577405e-a098-4434-8196-85feafbeeeeb">
+                    <propertyInstance
+                      Id="ce5049b4-12b5-4dea-9cfc-ffd5ac7e80b3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0120a5d-ad75-4d52-a975-2d4ec01d1043">
+                    <propertyInstance
+                      Id="4e1a402b-d003-4d6f-b7d2-f4bb6e687942"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

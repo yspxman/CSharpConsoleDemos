@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Users/shaopyan/AppData/Local/Microsoft/VisualStudio/10.0/Extensions/Microsoft/Visualization and Modeling Feature Pack/1.0/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log">
+  <Message Timestamp="2012-07-12T16:36:02" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2012-07-12T16:36:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples' -  (Package)" />
+  <Message Timestamp="2012-07-12T16:36:04" Importance="Medium" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Client' -  (Class)" />
+  <Message Timestamp="2012-07-12T16:36:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Client::Client' -  (Operation)" />
+  <Message Timestamp="2012-07-12T16:36:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Client::FactoryClientTest' -  (Operation)" />
+  <Message Timestamp="2012-07-12T16:36:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Client::Main' -  (Operation)" />
+  <Message Timestamp="2012-07-12T16:36:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Client::Main::args' -  (Parameter)" />
+  <Message Timestamp="2012-07-12T16:36:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Client::SimpleFactoryClientTest' -  (Operation)" />
+  <Message Timestamp="2012-07-12T16:36:04" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2012-07-12T16:36:04" Importance="High" Text="(1) type(s) fully reverse engineered." />
+  <Message Timestamp="2012-07-12T16:36:04" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>
