@@ -884,6 +884,12 @@
         </targetEnds>
       </class>
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="764e4fbe-5aad-4e97-9a3b-c77107bc6ea9"
+        LastKnownName="System"
+        LastKnownLocation="Package_0039.uml" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

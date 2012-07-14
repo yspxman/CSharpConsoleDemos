@@ -19,7 +19,24 @@ namespace PatternExamples
 
             AdapterClientTest();
 
+            IteratorClientTest();
         }
+
+
+        static void IteratorClientTest()
+        {
+            Console.WriteLine("This is Iterator pattern");
+            PhoneContainter containter = new PhoneContainter();
+            IIterator it = containter.GetIterator();
+
+            while (it.HasNext())
+            {
+                Console.WriteLine(it.Current.ToString());
+                it.MoveNext();                
+            }
+        }
+
+
 
         static void AdapterClientTest()
         {

@@ -1,45 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="file:///C:/Users/shaopyan/AppData/Local/Microsoft/VisualStudio/10.0/Extensions/Microsoft/Visualization and Modeling Feature Pack/1.0/Logging/ReverseEngineeringLog.xslt"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Users/ysp/AppData/Local/Microsoft/VisualStudio/10.0/Extensions/Microsoft/Visualization and Modeling Feature Pack/1.0/Logging/ReverseEngineeringLog.xslt"?>
 <Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log">
-  <Message Timestamp="2012-07-13T15:27:58" Importance="High" Text="Reverse Engineering Started." />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples' -  (Package)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::FactoryBJ' -  (Class)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::FactoryBJ::cloth' -  (Property)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::FactoryBJ::CreateProductCloth' -  (Operation)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::FactoryBJ::CreateProductShoes' -  (Operation)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::FactoryBJ::FactoryBJ' -  (Operation)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::FactoryBJ::shoes' -  (Property)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::FactorySH' -  (Class)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::FactorySH::cloth' -  (Property)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::FactorySH::CreateProductCloth' -  (Operation)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::FactorySH::CreateProductShoes' -  (Operation)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::FactorySH::FactorySH' -  (Operation)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::FactorySH::shoes' -  (Property)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::IAbstractFactory' -  (Interface)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::IAbstractFactory::CreateProductCloth' -  (Operation)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::IAbstractFactory::CreateProductShoes' -  (Operation)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::IProductCloth' -  (Interface)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::IProductCloth::foo' -  (Operation)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::IProductShoes' -  (Interface)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::IProductShoes::foo' -  (Operation)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Pants' -  (Class)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Pants::foo' -  (Operation)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Pants::Pants' -  (Operation)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::SlipperShoes' -  (Class)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::SlipperShoes::foo' -  (Operation)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::SlipperShoes::SlipperShoes' -  (Operation)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::SportsShoes' -  (Class)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::SportsShoes::foo' -  (Operation)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::SportsShoes::SportsShoes' -  (Operation)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::TShirt' -  (Class)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::TShirt::foo' -  (Operation)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::TShirt::TShirt' -  (Operation)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SimpleFactoryDiagram::PatternExamples::Pants to SimpleFactoryDiagram::PatternExamples::IProductCloth (InterfaceRealization)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SimpleFactoryDiagram::PatternExamples::SlipperShoes to SimpleFactoryDiagram::PatternExamples::IProductShoes (InterfaceRealization)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SimpleFactoryDiagram::PatternExamples::SportsShoes to SimpleFactoryDiagram::PatternExamples::IProductShoes (InterfaceRealization)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SimpleFactoryDiagram::PatternExamples::TShirt to SimpleFactoryDiagram::PatternExamples::IProductCloth (InterfaceRealization)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SimpleFactoryDiagram::PatternExamples::FactoryBJ to SimpleFactoryDiagram::PatternExamples::IAbstractFactory (InterfaceRealization)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SimpleFactoryDiagram::PatternExamples::FactorySH to SimpleFactoryDiagram::PatternExamples::IAbstractFactory (InterfaceRealization)" />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="High" Text="(9) type(s) fully reverse engineered." />
-  <Message Timestamp="2012-07-13T15:28:02" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+  <Message Timestamp="2012-07-15T00:46:19" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples' -  (Package)" />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="Medium" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Adaptee' -  (Class)" />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Adaptee::Adaptee' -  (Operation)" />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Adaptee::PrintStr' -  (Operation)" />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Adaptee::PrintStr::s' -  (Parameter)" />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="Medium" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Adapter' -  (Class)" />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Adapter::adaptee' -  (Property)" />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Adapter::Adapter' -  (Operation)" />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Adapter::PrintSth' -  (Operation)" />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Adapter::PrintSth::a' -  (Parameter)" />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="Medium" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Target' -  (Class)" />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Target::PrintSth' -  (Operation)" />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Target::PrintSth::a' -  (Parameter)" />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'SimpleFactoryDiagram::PatternExamples::Target::Target' -  (Operation)" />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: SimpleFactoryDiagram::PatternExamples::Adapter to SimpleFactoryDiagram::PatternExamples::Target (Generalization)" />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="High" Text="(3) type(s) fully reverse engineered." />
+  <Message Timestamp="2012-07-15T00:46:21" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
 </Log>

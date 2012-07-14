@@ -3117,5 +3117,2271 @@
         </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d2f41dc0-7c0e-4d93-bade-fc7605139edc"
+        name="PhoneContainerIterator"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1aeee111-62d8-4abe-8edc-7e27676bb556"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=PhoneContainerIterator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="925198f9-9622-4657-91bb-f7cad32252cc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ccdaf381-a321-4fe0-b31b-f2f5e71f4c33">
+                <propertyInstance
+                  Id="d8356131-9391-41dd-ba65-1d1f3d772d80"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="54c04630-672f-4e70-b8d1-9ac99abc2b5c">
+                <propertyInstance
+                  Id="720f594f-9dcc-4a73-82ea-be74e22e777e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6b4dce78-38c1-4c26-9b77-8a5434dffb81">
+                <propertyInstance
+                  Id="b46b816e-c3a4-4603-b04a-8afb4dc86ccf"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c332b8ab-a71c-422c-afab-6d69069cebe8">
+                <propertyInstance
+                  Id="3d819f87-683f-4130-961f-5c1eaf57ae80"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="26a19233-6dc6-4122-93b6-4dbeb9d0c6fd">
+                <propertyInstance
+                  Id="8f6de2ca-ed5b-4061-b31a-1221bdf42638"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="3dc3e485-f972-4818-b1e8-675aa705eda6">
+            <interfaceMoniker
+              Id="bcf67726-a967-4abd-80ac-d78cbbe2149d"
+              LastKnownName="IIterator"
+              LastKnownLocation="Package_1549.uml" />
+          </interfaceRealization>
+          <dependency
+            Id="fa078038-50b7-46a4-87ea-91ec9aae27be">
+            <classMoniker
+              Id="01d91610-4c2f-441d-b6cb-441ed6fc6637"
+              LastKnownName="PhoneContainter"
+              LastKnownLocation="Package_1549.uml" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="e8a9fd71-6e6f-4296-b26a-309b7e98a175"
+            isDerived="false"
+            sourceEndRoleName="PhoneContainerIterator"
+            targetEndRoleName="Current"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="551e97e1-85e1-4823-aa9d-b2f9d0d50b12"
+              LastKnownName="Object"
+              LastKnownLocation="Package_0039.uml" />
+            <description>Property Current references type Object.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2de3c513-16ad-4eed-85d6-31499840a559"
+                  name="PhoneContainerIterator"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="cb4e2e37-8cae-49da-892a-28a5890e281f"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="08938504-e7ba-411c-b4a1-089c4e0a0d9a"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4027c222-6f81-471d-a0a3-275787e31dab"
+                  name="Current"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f3f555e4-5e76-408c-883a-2aad65d4aaef"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="04cfe8c6-00d9-48d8-bf9e-42ece3709e99"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="e738ad6f-df0b-4857-b373-23942b6052f6"
+            name="Current"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0f526cda-f577-49d2-b571-835235bcd5df"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=PhoneContainerIterator Member=Current"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9b55d68d-ecbb-481d-9234-a5131cf7da58"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f845f6e-31c5-45f1-ad4b-480e4fcc227f">
+                    <propertyInstance
+                      Id="788f014f-70d1-4697-8f6a-4192ec1b2282"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd14811d-979e-477d-9d2f-7393fcb7e3aa">
+                    <propertyInstance
+                      Id="dd421674-840c-44ff-93d7-e1a5c55058d0"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96571b55-41ea-4168-9638-862275d5c5ee">
+                    <propertyInstance
+                      Id="8b4436cc-7680-4bdb-a8a9-6782d3971d7a"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="852231bb-53c3-4443-a32a-81988abe17f4">
+                    <propertyInstance
+                      Id="d3666149-4c1f-4da4-8a0b-62137f862085"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3d36ffb-08ad-4153-b3e5-d8231cd07c58">
+                    <propertyInstance
+                      Id="4ebd5ec4-43aa-494a-87c1-910ed32dddf5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="185a3fb0-53ca-4887-b141-f258c1cdf416">
+                    <propertyInstance
+                      Id="3ce5c5a2-2475-4d9c-8c9f-d89b49d6ca23"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="551e97e1-85e1-4823-aa9d-b2f9d0d50b12"
+                LastKnownName="Object"
+                LastKnownLocation="Package_0039.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f8f059bd-c7de-43c8-b740-e4da5c414d02"
+            name="index"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e2d07151-9281-4691-9f40-22daec22c3c6"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=PhoneContainerIterator Member=index"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5a7b349f-6916-4b17-aea3-485309a8daf1"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ace25e9-c7bd-497c-91c5-353f0bf9e121">
+                    <propertyInstance
+                      Id="aeb1ac6a-9fa7-4c1e-a7c2-3c979d54610b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="249c2278-b55f-46c2-8432-a45e598c94a1">
+                    <propertyInstance
+                      Id="82e09457-8526-4ce2-896a-8682a6bd1541"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7ec7451-3cfc-4307-b8c3-0bba4f6bdd0f">
+                    <propertyInstance
+                      Id="6c31918b-d575-4d07-8353-b910b0517251"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="169188be-fd85-4ae9-91e8-12293703f1c3">
+                    <propertyInstance
+                      Id="58232c67-bcaf-4b62-97ad-f8dbdafc32e8"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a43aedcb-05f4-4041-8b6c-9196bb5fe9ba">
+                    <propertyInstance
+                      Id="7ee49ae3-4f38-4a99-9a85-5f484245edfa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SimpleFactoryDiagram.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3836eb40-a22d-4ccc-8675-fc372b406f63"
+            name="list"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d89d4697-a63f-464d-a7e3-d57b810f2a6f"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=PhoneContainerIterator Member=list"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0598f55d-1eef-4c6d-94bd-19fae2c66208"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db657c23-5fb6-468c-85de-732163a36280">
+                    <propertyInstance
+                      Id="29bff957-2cdb-410b-a857-14418a28e266"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1232db15-6375-4972-8114-1cc2cc8ca228">
+                    <propertyInstance
+                      Id="42f6818b-fb32-4a8c-9b73-ec576d981e4c"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0544d7e4-ba30-47bf-9363-76c9eb1dc838">
+                    <propertyInstance
+                      Id="41ba0a4b-3d1b-4398-8202-be2cc4fbbf6e"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="facc9c9b-11d3-40de-8387-d770d479cc20">
+                    <propertyInstance
+                      Id="65845bd6-0b00-4bac-8892-bec77ab14568"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2badf310-6d73-4555-a549-bfc452999aa3">
+                    <propertyInstance
+                      Id="41b878d7-b175-44a4-a209-f38f48f6068d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="01d91610-4c2f-441d-b6cb-441ed6fc6637"
+                LastKnownName="PhoneContainter"
+                LastKnownLocation="Package_1549.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="aac6de65-4ef0-4dbf-b950-d0dfe1126c7a"
+            name="PhoneContainerIterator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="063d5cfe-0491-4095-875e-71167bfcbdde"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=PhoneContainerIterator Member=(Name=.ctor OverloadingParameters=[(Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=PhoneContainter)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f936016b-e7e5-4860-84f7-b0d03298f132"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34a5cfb7-9733-42d6-9327-915796601404">
+                    <propertyInstance
+                      Id="7879d4f6-5c5d-4267-adee-e0971a92f05c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7becaa15-7934-4d22-849b-e64c67c3d4c0">
+                    <propertyInstance
+                      Id="7f0c5f71-48cd-4242-83a1-76f96572f663"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8cfc3549-7279-4201-88b9-7ccaeb6fdaaa">
+                    <propertyInstance
+                      Id="1683af41-52f6-4aee-a19b-33cb0781caf2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f91f0651-9a2c-4050-a339-4835423bdb38">
+                    <propertyInstance
+                      Id="39d81757-12fd-4aa3-9edc-690ec3c4daed"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f13f0117-83a5-47c3-a4de-34dcedf218f3">
+                    <propertyInstance
+                      Id="6904ca87-7129-4829-8020-9ca20e9a5499"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ce36319f-8829-485b-ac31-b532d19b8410"
+                  name="alist"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c6af65bc-7a8e-43f2-a1b0-bf331aaff1e7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=PhoneContainerIterator Member=(Name=.ctor OverloadingParameters=[(Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=PhoneContainter)]) ParameterIdentifier=alist"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="01d91610-4c2f-441d-b6cb-441ed6fc6637"
+                      LastKnownName="PhoneContainter"
+                      LastKnownLocation="Package_1549.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="24218abf-2cc8-4633-af52-dbd995c3feac"
+            name="HasNext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="38067cae-d30e-43b1-b517-21ce65120f05"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=PhoneContainerIterator Member=HasNext"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ac7c62d0-7a73-4e2c-b33d-a0ba9e5b26ac"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e035e69-b0fa-4e4c-9232-fc4bf28ebd2e">
+                    <propertyInstance
+                      Id="bd8a746d-7868-4b71-927d-18b5aa4fad39"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="abef9557-69a6-4d7d-b424-50adc9ce2b31">
+                    <propertyInstance
+                      Id="199bb266-de92-4287-aa64-fc25f9d1ced9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9de0b3c-8564-470f-960b-497211d68e61">
+                    <propertyInstance
+                      Id="0b06449d-4f3e-4f0c-890b-ec1a007db7e0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45314cb8-13cf-48c9-83cf-54537435f3b7">
+                    <propertyInstance
+                      Id="820966c9-eed0-4a61-92b4-54a6af29a438"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b2e6988-8855-42d8-ade4-248907df61fe">
+                    <propertyInstance
+                      Id="f5f2779e-e657-428b-8973-399791688ef3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="406a58ee-0893-4087-9354-8e45ad0b64fb"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="SimpleFactoryDiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4081cb58-9c0d-464f-a8f4-ea09625125a8"
+            name="MoveNext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="467f10e9-0f64-434f-89c8-81b54c82800f"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=PhoneContainerIterator Member=MoveNext"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="25217358-7d84-4221-8fb9-68bb87a7978b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6edd79e-95e5-47cc-b5c3-d8ef3c2b3b1a">
+                    <propertyInstance
+                      Id="cf03d4cc-c46e-4828-80ed-1dcc10cc641e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa965e83-551e-4f5a-b060-dff65e62345e">
+                    <propertyInstance
+                      Id="eadcc4bc-cb12-4538-8907-3e3fecef838b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4506760c-3f6f-4a9b-96f0-08712ffda37e">
+                    <propertyInstance
+                      Id="bc5fe526-6d7c-462d-9f94-ac1e421495df"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03ef6d75-1fa3-471e-b699-cc0cd4e4006e">
+                    <propertyInstance
+                      Id="6b2c4b23-fac8-458e-bc48-fb5f171dff62"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e7e4130-a685-481b-916b-6d7d5911fdac">
+                    <propertyInstance
+                      Id="938f635d-4817-4772-b042-4ef9f3dec312"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8961d4d6-925f-4ec8-aa90-6604dd355619"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="SimpleFactoryDiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f200d67b-5c1a-486d-bcce-9e63286ef5e3"
+            name="Reset"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="53278461-d671-40da-a540-2df3b4cccb79"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=PhoneContainerIterator Member=Reset"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="babc22e5-fe19-45bf-9f05-038a6720cb30"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f927abf9-1866-4bd1-a1b7-28b16c841ebe">
+                    <propertyInstance
+                      Id="d834be6c-ca33-4814-94d7-c1a270db12ce"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65b0d95d-8c0f-4b3d-9afa-b8d18da70d45">
+                    <propertyInstance
+                      Id="ff5c4703-6079-485d-881a-1919f349745b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5a4be3e-9f21-404b-8ec9-944157c60605">
+                    <propertyInstance
+                      Id="a5ede57e-4d6f-459f-beb5-01cec2cd3d3f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72b6d826-e03c-4b9d-9df7-d9753376d973">
+                    <propertyInstance
+                      Id="4bc6a86c-d4b8-4bc1-a2c4-cd2ba23b9952"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2dded2d-9c83-4dad-91fa-7cfda1c226e9">
+                    <propertyInstance
+                      Id="126215a8-6a9e-4ffe-abf5-13da4dfecc3f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="01d91610-4c2f-441d-b6cb-441ed6fc6637"
+        name="PhoneContainter"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="25531cdd-441d-47a8-afc7-aa6c6e62a666"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=PhoneContainter"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bc6ce710-0884-44ec-951e-8aa4a76dc81d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f05f0413-4910-4c13-bf42-05c9db23a513">
+                <propertyInstance
+                  Id="85f37997-fa10-4545-b0c7-f798fb0cb2c6"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e0416106-48e3-46d6-96a1-9e55f7883725">
+                <propertyInstance
+                  Id="f619c87a-010e-4360-b508-b33bcfc0bb40"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="04e3d172-0380-4d95-8015-1f85a06b2724">
+                <propertyInstance
+                  Id="8593f785-f738-4516-8439-99a1f1043ec0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="788ca49a-fe1b-4156-aaf3-a980b3fbc82d">
+                <propertyInstance
+                  Id="d20376c0-092f-4230-8c3c-344b2eec227b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="42f1a968-d8ad-4d65-85b1-a960f4be4740">
+                <propertyInstance
+                  Id="0c458ccc-caff-4ec1-86fd-71330ace0f47"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="95442e81-97ab-4b95-bb67-5445adb71db1">
+            <interfaceMoniker
+              Id="3acee238-8e2e-46d4-ac80-139f9909fc92"
+              LastKnownName="IIterable"
+              LastKnownLocation="Package_1549.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="4543aeaf-441f-4c94-8413-f71e5b790fc2"
+            name="Count"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="84a8bdb3-864d-4990-aa95-7af136d62528"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=PhoneContainter Member=Count"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="de9a7766-c4d3-4034-9a90-1888c0a393ec"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c5f61cb-0217-4b75-9383-30b912b55d77">
+                    <propertyInstance
+                      Id="0f57e5d1-8e37-4e0c-adb7-188b286f6305"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a21c49fe-6c29-4112-94a4-aabf270a814b">
+                    <propertyInstance
+                      Id="5eabc013-3459-4d0e-b85d-27543eaae2be"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2078a911-220a-41c6-9117-3ca0357b4e3d">
+                    <propertyInstance
+                      Id="f1ca20ce-422b-4f00-90c7-eab15d999b75"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e0f64d0-abb0-4936-892c-2b8f122ec7d1">
+                    <propertyInstance
+                      Id="ac5c2f7c-01ac-40f3-8b26-d69fc7b49662"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8c2ea00-5a10-43ba-ac18-4be0cba68ee6">
+                    <propertyInstance
+                      Id="11f7eb66-da21-4014-a047-d21b47b5952e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b7edc30-53f6-4c5b-b400-a761bbcc48e4">
+                    <propertyInstance
+                      Id="8e502b49-1e87-4e17-bf14-cc9a2a27f60a"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SimpleFactoryDiagram.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="bf0793e8-c61c-4742-bd85-3a9b5d4f72fd"
+            name="phoneList"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8f718079-053f-4a80-a24f-2a2c37256870"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=PhoneContainter Member=phoneList"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dc50953b-072c-4bb8-929e-3fb54ddd9f17"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb2d94e3-6943-438f-ac67-5464bcc35242">
+                    <propertyInstance
+                      Id="c9bcd903-309d-490e-82ba-8ecf5ff7e61c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c716a6e4-1b27-4b48-a793-3d207f43dc30">
+                    <propertyInstance
+                      Id="5c038c3e-ea95-404c-a69b-75d472f70477"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cfd1ae44-62f3-4088-932e-923e6ca0eccd">
+                    <propertyInstance
+                      Id="1cdc03aa-0857-4067-9b3a-b3afe46e72f9"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab2df333-70ac-4e75-8641-a7d4e5e9740f">
+                    <propertyInstance
+                      Id="346863eb-6c9b-478e-8b06-4c6ee9c037a4"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bcbff197-ec10-4a17-ab15-51e83e5eb3a2">
+                    <propertyInstance
+                      Id="f99324ec-fe16-4202-8f00-f050ee35d4b3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d712e831-400f-403e-820b-05351007125d"
+                LastKnownName="List&lt;String&gt;"
+                LastKnownLocation="Package2_0039.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="88eac0f1-c93c-4bac-aa35-3105af25698b"
+            name="GetPhoneNameByIndex"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c44acc2f-6109-4ac4-a82c-05ebfdbf8953"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=PhoneContainter Member=(Name=GetPhoneNameByIndex OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="54a2203e-ca1e-4d68-84e6-8d8f3f22823c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e5502f7-cb22-428c-817e-eb38903747cf">
+                    <propertyInstance
+                      Id="6d2df707-1d9b-446f-a5ef-41a5e52c4b72"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed2bc933-8345-41f5-98cb-65f9033b2bdf">
+                    <propertyInstance
+                      Id="2655549f-8a4f-44f3-b9c3-cedd94b8933d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f63869b4-f400-4259-9b4e-d109a6aba365">
+                    <propertyInstance
+                      Id="d5f81e45-3121-47ff-b908-3d579b7a53bf"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46aa8753-bb8a-4768-b158-584f936688b3">
+                    <propertyInstance
+                      Id="26120e53-41b7-4a24-8b8d-62041a2cf4a8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3af4993e-9772-466c-929a-da305372ea44">
+                    <propertyInstance
+                      Id="69440a71-c8ac-4627-9977-3f546cc72f58"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="18464148-d221-4178-9093-e1865314da9b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="SimpleFactoryDiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="50203a97-5619-46c1-a93b-09c032d174e6"
+                  name="index"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d9884272-ad85-4546-b4e6-d452f401d32d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=PhoneContainter Member=(Name=GetPhoneNameByIndex OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32)]) ParameterIdentifier=index"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SimpleFactoryDiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f1ceb089-2162-459b-903e-eba33dae2f17"
+            name="PhoneContainter"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="74096ae8-7941-496e-96cc-c9c0da7ba221"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=PhoneContainter Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="edb3c18c-918b-40fb-b584-cee6fe61c8be"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a57cad9-ebd1-4695-bab6-e2e5ffcaec9b">
+                    <propertyInstance
+                      Id="82bbd00c-73db-4fed-97e4-b9a4e332ac11"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0f17f4a-a717-47d1-b10a-676279b8f066">
+                    <propertyInstance
+                      Id="0a4b46a5-5560-4bcb-819b-4b1fdea205bf"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b91190de-2dab-4e48-9bd5-f86348c56fb3">
+                    <propertyInstance
+                      Id="1bc41fcb-3b40-4376-be52-a1807645e856"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dae45e5c-d8cf-4a21-b2aa-0fd0f5448dfb">
+                    <propertyInstance
+                      Id="8794fadb-83ce-4f1c-a7be-33ac8a5f0e74"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79df615d-7904-4f4f-beb7-ccfa343f350e">
+                    <propertyInstance
+                      Id="fde9de28-be33-406f-874e-024e9c447cb5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="7f032396-5ea0-41e1-8e2e-8d804fc44c12"
+            name="GetIterator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="62a53bef-962e-4362-8df8-46d6abb7469e"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=PhoneContainter Member=GetIterator"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c6547b3b-49f4-48c2-885d-9d1232217f8b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9db1532-bc8a-4bb8-9ee4-36f482214988">
+                    <propertyInstance
+                      Id="88ed0de9-eac3-4983-be3f-52876835e4ea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c0ceb1e-d701-40f1-9c4f-adecec7dac5e">
+                    <propertyInstance
+                      Id="b5fcc399-754a-4665-9da2-c8a4d0c79069"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5aa87f6f-b391-4c79-b77b-d3fa185d6f43">
+                    <propertyInstance
+                      Id="a6a5c01d-fa49-4a95-8b86-7689cc656b89"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6c9bdac-5309-42c5-9dc2-87132ca03605">
+                    <propertyInstance
+                      Id="5273ba80-a907-491a-91a0-c569dd4395ba"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aeff89b8-62e2-4e92-9842-85088533b119">
+                    <propertyInstance
+                      Id="f2752bf6-6da9-48c1-8c82-23dc45507f36"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a7c1861b-b4e5-4d7c-b829-7e0f83e528fc"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="bcf67726-a967-4abd-80ac-d78cbbe2149d"
+                      LastKnownName="IIterator"
+                      LastKnownLocation="Package_1549.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="bcf67726-a967-4abd-80ac-d78cbbe2149d"
+        name="IIterator"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="749fd643-0b55-4775-a0ca-f7c4ce8ddba1"
+            handle="viewcode://./CodeSchema_Interface?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=IIterator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d58e4655-6ce9-4ae0-8a8f-e941bd06e900"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fb1d4e4d-7945-4214-8549-a4494749004d">
+                <propertyInstance
+                  Id="67a45eda-5ac2-489d-b33d-6ade3df49c7f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b68aac1a-5220-43ac-a9d3-dc26c5bac7ee">
+                <propertyInstance
+                  Id="5370e9d1-75a1-4c2e-baec-6ba856c6cc1b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="659b9bdd-99cf-4d58-8d24-2b0a98512a63">
+                <propertyInstance
+                  Id="be64585a-58f8-4d70-bd26-13d99959072f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2fa881bd-521d-451d-a2d8-6c6a2a05c3c4">
+                <propertyInstance
+                  Id="d9c224dc-d6b7-42ca-921d-001b3472d2c8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="002b52a3-0e95-40f4-933e-652cc3edc598"
+            isDerived="false"
+            sourceEndRoleName="IIterator"
+            targetEndRoleName="Current"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="551e97e1-85e1-4823-aa9d-b2f9d0d50b12"
+              LastKnownName="Object"
+              LastKnownLocation="Package_0039.uml" />
+            <description>Property Current references type Object.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2b57fd9a-c9fc-447f-b53f-ea8731bf7f83"
+                  name="IIterator"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="6156556e-823d-4274-b6a7-4138ccc14eeb"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="22057e8c-8247-4302-ab13-b0f3037d130c"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6905b1ca-91b2-4ada-8f0e-0b65c9b95795"
+                  name="Current"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="805bf6d6-bbbc-4843-bbca-74b19ffbd622"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="8bc385ca-5503-4608-8f81-a67c9059f2db"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributes>
+          <property
+            Id="2c6aade5-bd2b-49de-b02f-7b106dfce9c2"
+            name="Current"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ca3f1803-fe8e-41bf-84d9-98c5a794644d"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=IIterator Member=Current"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e0e10b20-9002-4985-8412-685e64c67ee7"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17a3307c-c619-4c75-9dbd-1839d0afbe80">
+                    <propertyInstance
+                      Id="98e84bff-33bd-45d0-ac27-5f3b7f46a3a8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="885ea03b-0eaa-4a41-90a9-775a091cfcd5">
+                    <propertyInstance
+                      Id="36125aeb-0598-4f50-bb6a-5511d6520885"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f71d0b5-209c-43f5-ba77-4e0ea553cef7">
+                    <propertyInstance
+                      Id="72122fc4-a758-4568-bcab-d99780d28895"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8de591fe-bf89-4711-a23b-3aadde4aef5d">
+                    <propertyInstance
+                      Id="06d6d642-afc7-4f98-a0eb-f0a13c82577b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59fc9cb4-45df-4ee6-bf4c-3f177d96f51c">
+                    <propertyInstance
+                      Id="a15e1060-5720-4c82-b0bb-0c7771fb7a1f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="588551e9-e528-4988-b0d7-ed0de5f296d2">
+                    <propertyInstance
+                      Id="d3cd6bbb-8d25-4175-9b94-a4f5815042ce"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="551e97e1-85e1-4823-aa9d-b2f9d0d50b12"
+                LastKnownName="Object"
+                LastKnownLocation="Package_0039.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributes>
+        <ownedOperations>
+          <operation
+            Id="b32015c3-7c5b-493a-9f30-800bf29a3dc5"
+            name="HasNext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4dbd33f9-b0f3-4b29-acb3-9f15415f2c65"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=IIterator Member=HasNext"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e89ac2ce-f93a-49d4-8fa4-2e03d8a0ef42"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a46bb5d-4bf2-4270-ab72-ed41d3156153">
+                    <propertyInstance
+                      Id="5ed27211-fdae-4c5a-8502-bfee01459417"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb1021ce-34cd-49fa-aa78-57a968b32fa8">
+                    <propertyInstance
+                      Id="d386199b-7346-4069-be54-6037cfb7feae"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53fe00f7-1451-45e3-a385-472fccc11cdc">
+                    <propertyInstance
+                      Id="636a0092-4a91-4b9e-a81c-98f470429359"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba6ea1fd-d017-4d17-833a-99a01b5e2873">
+                    <propertyInstance
+                      Id="2cdd57cd-7508-44f0-8ecb-8cef811b7cdc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9de1346-83ae-4d1e-85a1-071e7b5e2a94">
+                    <propertyInstance
+                      Id="5f492ec4-345e-4b49-a287-d59c3964e8af"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e3a448de-b2ba-429a-823b-6460f36f0b2f"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="SimpleFactoryDiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f6aa790f-5f3e-4e25-8a24-f741cc5d578c"
+            name="MoveNext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8d20a0b2-caad-49b9-af63-82cc732c3372"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=IIterator Member=MoveNext"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c4c2bbe2-c16a-4f04-ae71-1356be1638b7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39255725-40a2-4bf3-94c2-edac20d0ce26">
+                    <propertyInstance
+                      Id="aae81fe1-bf59-4030-b72f-436f30b7b74b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d41094c-6c42-47f9-a135-f5723b52bb09">
+                    <propertyInstance
+                      Id="aaf1ef74-4e6f-4e76-b188-381bd804b9bc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5291d2b-a039-40f6-a2af-9d37c0b63129">
+                    <propertyInstance
+                      Id="20f366af-7af4-47be-a096-ca5a8a44c526"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d69803b9-dc7a-4a5b-9e05-1e2f618fc9ff">
+                    <propertyInstance
+                      Id="1c6312e0-f53f-4b8f-aa16-15a96d6cc75a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8115965a-c90d-44af-ad81-2301c9cdb31b">
+                    <propertyInstance
+                      Id="d72a234e-20e6-4b43-aad5-2b6fb4f2ac33"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="662b1b50-b365-4082-8d6b-7a21294334c6"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="SimpleFactoryDiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="59ecb3eb-a1e6-4ff3-8718-3a7816b8e6ae"
+            name="Reset"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c0956657-6500-4106-b851-a283a9a84e9f"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=IIterator Member=Reset"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="69330a79-920e-4883-b9c5-f582eeb64ba9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9aa58e80-8a35-4366-b082-97451d027f0b">
+                    <propertyInstance
+                      Id="26daf507-427e-46b7-868f-33fc791a7873"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a53b9460-3a04-4a46-bb0c-bc65ada28d72">
+                    <propertyInstance
+                      Id="4a28d738-3ba9-4532-a2cb-f8ad16477432"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65d18eaf-a875-4bf5-a056-acbac43eca43">
+                    <propertyInstance
+                      Id="0fb7c7a0-2409-4cdb-9680-2a2775f77c44"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="254e2e3d-704a-4312-9d67-9bc13a966f25">
+                    <propertyInstance
+                      Id="00e13095-b686-4b14-b55a-083de538767c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="394ac6bf-1d4b-46a2-80cf-abdabb7ad0e3">
+                    <propertyInstance
+                      Id="bb14c0e0-9a16-4891-b520-ccf0df3807a0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="3acee238-8e2e-46d4-ac80-139f9909fc92"
+        name="IIterable"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="cd72cdcf-7c0d-4247-bdf7-df456cb895d8"
+            handle="viewcode://./CodeSchema_Interface?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=IIterable"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="fc86eab8-2557-48cb-a9b2-7e8ebcf558e7"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="37fc03e2-8f4b-46da-a281-c839fc6b7cfc">
+                <propertyInstance
+                  Id="7c19f515-0a16-4ccf-ae18-0a9993b0def5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="171536d2-9bcd-4b85-9453-672483a717ed">
+                <propertyInstance
+                  Id="d2d12a7f-7fc7-4aff-abaa-9bc735426070"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="85a6268c-1ac6-44cf-850b-72d9f92e463d">
+                <propertyInstance
+                  Id="9128996d-e0db-473b-8983-8889c5f8d411"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ea5e3553-3374-4679-bc19-147424253a89">
+                <propertyInstance
+                  Id="bb1824c8-6590-437a-b42f-9bf4ad985b3d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="4979f062-c638-4a64-b3b9-9de50c28930c"
+            name="GetIterator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="caeefd23-cfda-4e55-a196-3a5632d68aff"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=IIterable Member=GetIterator"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c9000b69-161f-4ec3-8c5b-c7f83899337e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a60e0a73-0788-4381-88e8-51d9cdf58674">
+                    <propertyInstance
+                      Id="4a952634-1ef6-4449-8316-162a640f38de"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dac6c283-58f4-4965-afae-faa62b1829e4">
+                    <propertyInstance
+                      Id="cb10b503-b3e1-4369-aebe-dbb8491a4597"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8070ca8d-af79-4972-9c4b-d697ab2b0c62">
+                    <propertyInstance
+                      Id="3ec42416-6226-40a8-bd07-14bc793bbc92"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b945bd76-a73f-49e5-9e39-0cbf5ccdad53">
+                    <propertyInstance
+                      Id="bec783e4-3be5-488a-b7b0-ca0c5f11f2f0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a21fdd93-9cc1-40c4-963d-06288c178751">
+                    <propertyInstance
+                      Id="223fdbe1-5894-4202-a4d9-4004d2261202"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dcbabae0-fbd3-4faa-9d31-d5dee857b505"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="bcf67726-a967-4abd-80ac-d78cbbe2149d"
+                      LastKnownName="IIterator"
+                      LastKnownLocation="Package_1549.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4e47ab45-c434-43a9-a481-88c954348f31"
+        name="Adaptee"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2d046445-9c0a-4552-bea9-c4fb437167f5"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=Adaptee"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="555c1409-909b-45fc-92ff-cdb50d9c8f0f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1b1b77aa-81dc-4355-bbf8-59e172021596">
+                <propertyInstance
+                  Id="df9cbb25-782f-4d1e-b36a-5c1e31deae63"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d5be8bc3-cdea-4dd9-b3e9-c56e88caf16f">
+                <propertyInstance
+                  Id="92a00667-a69e-4581-850d-e3b6eee4a122"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="09eb478c-ae3c-475b-9306-94fa62e3cd01">
+                <propertyInstance
+                  Id="99319692-7f14-45c6-81da-26cd8e1ed6c5"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="110744e4-0f2d-45d7-9923-fecd65ad018a">
+                <propertyInstance
+                  Id="56fdb114-b4f1-4378-bbb0-48bc05bd0693"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="933a9e06-ffea-4cdb-91b8-67333df32a97">
+                <propertyInstance
+                  Id="bf38e839-126b-4874-923f-8ed9bee5a188"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="860eba6c-32fc-4bc0-b4c2-3e3e11ff9b26"
+            name="PrintStr"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="529d02ee-8dcc-43ce-9eae-d8a103341fde"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=Adaptee Member=(Name=PrintStr OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=String)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="23be76de-58eb-467c-943f-d57308762528"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="403c6bbb-731c-4ebf-b506-d0834b70c4be">
+                    <propertyInstance
+                      Id="eccfae8c-cc88-4649-8706-550cf3ad5454"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59235fff-81a4-4c42-95bb-e630b1d8f57b">
+                    <propertyInstance
+                      Id="5dce96dc-7b0e-4800-9aee-2894fa91fe77"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a31b835c-2b49-47fe-9ebc-9105369343be">
+                    <propertyInstance
+                      Id="15249d84-6881-4077-a8ab-f4fc5f4a3fc8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ddb7e50-b303-41f8-97ac-e030921928cb">
+                    <propertyInstance
+                      Id="95876462-748f-4ec6-8bac-6abc4ee825d3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3cafb7d1-fea0-424f-942f-d37875886eb0">
+                    <propertyInstance
+                      Id="64512c77-0905-4ce9-9c2c-50189a22c7ef"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="399067d3-6656-4f54-90ba-38ad72fedd5d"
+                  name="s"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c4d5e504-8ba0-461f-81d7-523326953dd2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=Adaptee Member=(Name=PrintStr OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=String)]) ParameterIdentifier=s"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="SimpleFactoryDiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b9508c69-f2f7-48a8-9785-2e9b6eefc63c"
+            name="Adaptee"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4be4c778-a2e5-44cc-95a6-289cb4e48933"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=Adaptee Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4db1dc88-7b4e-423e-b2b1-348aecc622e9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dbe292c2-70ef-46bb-a8cd-12be18fcdbbe">
+                    <propertyInstance
+                      Id="ea78d328-e2cc-41d3-8130-eb44121e6bce"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9f10701-d5b0-4ede-b38f-785fd1fa93e6">
+                    <propertyInstance
+                      Id="a0fec5cf-bd93-4409-a473-25312dc60fbd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1a33347-d856-4fd5-b18d-ab54aa3f9177">
+                    <propertyInstance
+                      Id="8be94da2-9d20-450f-b354-7b1d00cd16dd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0e270da-a2c2-4449-9435-feefc423c4cc">
+                    <propertyInstance
+                      Id="280fa08b-c445-4935-8c1a-4609dc973a49"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffe6c5ff-e254-42a2-8a2b-3bc4e003620d">
+                    <propertyInstance
+                      Id="744e0c2b-f704-496f-93f8-f754311a807e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f0613132-437a-47bb-bda5-163ee1a82e14"
+        name="Adapter"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a2324374-32b3-4475-b754-1e84276ec3af"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=Adapter"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="36792b79-7817-4b4e-bd9f-ba1ce73d92c5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aa5b356d-609f-4382-88ab-58a7a8ef92ef">
+                <propertyInstance
+                  Id="cc9b60c0-edc2-4df3-a8bb-684d395879b8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ea7554f8-08c8-45b3-8117-eb86416341aa">
+                <propertyInstance
+                  Id="b64c182a-5eb1-497a-9f0d-20b77cbd7fd6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8de4ca8d-22c0-45c9-af2a-9a907081d817">
+                <propertyInstance
+                  Id="cb7b8931-50b4-4dfe-a2ed-910954abda4d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fda70924-57a6-4b35-a20c-b97fe8953ed7">
+                <propertyInstance
+                  Id="8b883090-1810-42d6-9b99-5a7dc110e88f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e771bd2d-caf9-4a8e-a113-b913054e68f4">
+                <propertyInstance
+                  Id="b58a78a7-ed38-4fd5-9562-301ba42a592f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="76643488-d7ad-4905-9916-a9e125248bdc">
+            <classMoniker
+              Id="4e47ab45-c434-43a9-a481-88c954348f31"
+              LastKnownName="Adaptee"
+              LastKnownLocation="Package_1549.uml" />
+          </dependency>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="ffd2168a-31b2-471e-9c05-cd9e29715af5"
+            isSubstitutable="false">
+            <classMoniker
+              Id="fddac505-d42b-4fc8-a329-a682d8933a75"
+              LastKnownName="Target"
+              LastKnownLocation="Package_1549.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="288df26c-886c-4366-87ce-7dfabfc1afc0"
+            name="adaptee"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="37b5fa86-0db3-4d40-8620-73fba6f9e1a1"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=Adapter Member=adaptee"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="22e5b223-0b2a-48ea-8813-871a67a6c93c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a57f3ad-5a6b-42a2-b85d-36f724c9f79b">
+                    <propertyInstance
+                      Id="0b10e02d-bf4d-4401-8a35-ff197a2698b4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc6e9c9b-b690-42f1-a47e-0ea498cf6ead">
+                    <propertyInstance
+                      Id="2f40e6df-5442-4c56-8883-719880663d7e"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea2456df-37ae-49d9-8823-81dfc40b5101">
+                    <propertyInstance
+                      Id="da574e51-9244-4ff8-b63c-49868585f238"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b65a34c-1db0-47e2-bc50-421ce2fa77a1">
+                    <propertyInstance
+                      Id="893f1c1d-76ad-4a9c-814f-d4790cd31cdc"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46fac08e-2584-418b-9710-8bc86c262203">
+                    <propertyInstance
+                      Id="b870ffaa-72b6-4be2-aeae-f0ca549adf47"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="4e47ab45-c434-43a9-a481-88c954348f31"
+                LastKnownName="Adaptee"
+                LastKnownLocation="Package_1549.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="a9b6662e-e182-476d-a49b-95ee528b292b"
+            name="PrintSth"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="426069ee-dfba-4a79-b46d-c9efdb457f60"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=Adapter Member=(Name=PrintSth OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="72875ee9-5b74-42e9-bfbd-8e05ede2106c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45e4e372-fd6b-4acc-b678-44c641a756e9">
+                    <propertyInstance
+                      Id="b4522563-4166-4988-9557-721ca4a98f5a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf5f42bc-abdb-4c97-9919-ab1718f09ee2">
+                    <propertyInstance
+                      Id="de92df82-dc6d-4e78-8ae9-5cf16d612769"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fadc8fe3-5688-439e-bf89-3e4ad928f01e">
+                    <propertyInstance
+                      Id="ef179523-e381-4a60-b7a9-a730b0a677b2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5fb12de0-3c04-491a-8892-432b84cf546f">
+                    <propertyInstance
+                      Id="4530496b-92ce-4410-b1a8-7b65563f06ad"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8632811d-49ec-4dc5-a8fd-d45593a5a928">
+                    <propertyInstance
+                      Id="203c7715-8c1a-4a38-a930-9965444af08f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9650b50d-ba96-46bf-a8dc-6a2519a2296d"
+                  name="a"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="057bcab8-f35e-4815-8cb2-16eb0b3ef256"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=Adapter Member=(Name=PrintSth OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32)]) ParameterIdentifier=a"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SimpleFactoryDiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="512917b6-54b6-4e55-884a-e948443b93a1"
+            name="Adapter"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="71d8101b-3d03-4d9a-b0c2-359896d01863"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=Adapter Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="90f13f9e-0701-4e64-93d6-4dd294f8c122"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f99767af-3df9-4e3a-af61-1447e1599895">
+                    <propertyInstance
+                      Id="e5fa1091-63c1-440f-adbc-fb818a0b530b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00f1248b-ea92-44f6-af9d-5a733a20c277">
+                    <propertyInstance
+                      Id="5de9b9c2-5c48-448a-b745-3132c9f8d5d5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5bfedbd5-3829-45c9-ae3b-319d8056e77b">
+                    <propertyInstance
+                      Id="e6eac160-49a4-4006-b48f-d727e64accef"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="896f4e8e-e98d-4a44-b545-af4f6835b96e">
+                    <propertyInstance
+                      Id="3960f31c-5b0f-4527-9700-b19fe25c9495"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a09c57c3-6ff5-4907-bd23-59c8ed8f9db8">
+                    <propertyInstance
+                      Id="14833e62-171d-4aa7-b02e-1d37d0321935"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="fddac505-d42b-4fc8-a329-a682d8933a75"
+        name="Target"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="50e5c0ad-7970-426c-b7f4-b6a444f1337b"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=Target"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0411a117-7c2a-435e-9d78-cfbe21c26cb6"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a0f36e0a-b5e7-4c91-8066-85fe6668ed3f">
+                <propertyInstance
+                  Id="1c4403df-8d9a-431b-8114-b52186adcf3f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="acb20a17-918a-4359-bc7a-2690db803a2d">
+                <propertyInstance
+                  Id="589925eb-d4db-497e-b4c8-6b0976bdd977"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="61029cf6-cc87-483d-90e8-2424df458955">
+                <propertyInstance
+                  Id="cd920ca4-e84f-439b-8a87-f08618aec9b5"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2cbc91fd-f318-4d47-b70f-663e4bc47908">
+                <propertyInstance
+                  Id="591d8675-39ff-427f-8ee8-9a01629c38be"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f3bad03e-880d-47f0-b289-cbb96d09b429">
+                <propertyInstance
+                  Id="070d6db3-ccb8-4126-8e1b-abe7ad3c57a9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="c700a5b3-f709-4999-aa28-33871562591e"
+            name="PrintSth"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4af7ad56-044d-4f14-a25c-454df9f2015b"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=Target Member=(Name=PrintSth OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0c8ca270-108c-4e4c-b532-9a5c45131351"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9569417-77ca-4248-a4e1-33ec051762df">
+                    <propertyInstance
+                      Id="886d8667-9bcd-4ae0-8089-4835b7e7ebc0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0236957d-0857-406b-9997-fcddfe3eb4b5">
+                    <propertyInstance
+                      Id="ae572fe2-8401-4aa2-904b-e164ac68aa09"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a326ee08-68e1-410e-988d-d78a63ff1cf7">
+                    <propertyInstance
+                      Id="d955820e-a557-4ac2-b8fc-e6ec481bacb3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42a37527-0d63-4b3e-9618-a5427eab2471">
+                    <propertyInstance
+                      Id="a7ad8532-0304-45f0-a8c8-e59434eb9f4b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f16103bd-2af7-4a77-81a1-c3a008d492d3">
+                    <propertyInstance
+                      Id="1c6da8ec-e427-4530-bb24-50385dc4ff4a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cb09a97b-d01b-415a-80e6-828a22e60c1c"
+                  name="a"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b891c785-1764-421d-8ac7-ec26e5163f33"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=Target Member=(Name=PrintSth OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32)]) ParameterIdentifier=a"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SimpleFactoryDiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5c967e56-4525-4274-82d9-e8ae335f59d4"
+            name="Target"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a14b8876-5bca-476f-8474-bd52b452ed95"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///E:/WP7/MyProjects/CSharpConsoleDemos/PatternExamples/bin/Debug/PatternExamples.exe Namespace=PatternExamples Type=Target Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5edf6355-a84d-4eec-949e-43a4cf2e97ec"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="accfbfac-a191-4069-a0d9-2c6f00d5622e">
+                    <propertyInstance
+                      Id="dad2a7f0-2e73-48aa-8b65-f383ce29dc2c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5551490-7f91-4d68-b3f9-8260d121dde2">
+                    <propertyInstance
+                      Id="0b258430-5818-4637-bd56-023fcd5ec037"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c34fa167-7abc-491b-a1aa-025eb2d80bee">
+                    <propertyInstance
+                      Id="38366b9c-9752-41e1-88a5-f176bbd8167c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="243a1e06-8e69-4c06-b9f5-84993733796a">
+                    <propertyInstance
+                      Id="b6dc660d-eac3-4600-8df6-033e766deb13"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="295256c1-472a-4ea9-a54c-be270ce8ad27">
+                    <propertyInstance
+                      Id="94357ad7-66d3-4694-b708-76bc23fba3f7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
   </packagedElements>
 </package>
