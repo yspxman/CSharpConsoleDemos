@@ -48,6 +48,7 @@
     <Compile Include="Client.cs" />
     <Compile Include="Factory.cs" />
     <Compile Include="Iterator.cs" />
+    <Compile Include="Observer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleFactory.cs" />
   </ItemGroup>

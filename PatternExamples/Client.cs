@@ -20,6 +20,8 @@ namespace PatternExamples
             AdapterClientTest();
 
             IteratorClientTest();
+
+            ObserverClientTest.test();
         }
 
 
