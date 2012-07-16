@@ -6,6 +6,24 @@ using System.Collections;
 
 namespace PatternExamples
 {
+    class IteratorClientTest
+    {
+
+      public  static void Test()
+        {
+            Console.WriteLine(Utility.HeaderString("Iterator"));
+           
+            PhoneContainter containter = new PhoneContainter();
+            IIterator it = containter.GetIterator();
+
+            while (it.HasNext())
+            {
+                Console.WriteLine(it.Current.ToString());
+                it.MoveNext();
+            }
+        }
+    }
+
     // interface designed for the container.
     public interface IIterable
     {

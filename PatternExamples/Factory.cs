@@ -3,8 +3,37 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Factory
+namespace PatternExamples
 {
+    class FactoryClientTest
+    {
+        public static void Test()
+        {
+            Console.WriteLine(Utility.HeaderString("Factory Pattern"));
+            
+
+            /*
+            IFactory factoryA = new FactoryA();
+            IProduct PA = factoryA.CreateProduct();
+
+            IFactory factoryB = new FactoryB();
+            IProduct PB = factoryB.CreateProduct();
+            
+            PA.foo();
+            PB.foo();
+            
+            */
+
+            // 使用reflection 
+            string factoryName = "FactoryA";
+            IFactory f = (IFactory)System.Reflection.Assembly.Load("PatternExamples").CreateInstance("PatternExamples." + factoryName);
+            IProduct p = f.CreateProduct();
+
+            p.foo();
+        }
+    }
+
+
     public interface IFactory
     {
         

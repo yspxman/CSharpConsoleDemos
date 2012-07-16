@@ -6,6 +6,16 @@ using System.Text;
 namespace PatternExamples
 {
 
+    class AdapterClientTest
+    {
+
+       public static void Test()
+        {
+            Console.WriteLine(Utility.HeaderString("Adapter"));
+            Target t = new Adapter();
+            t.PrintSth(12);
+        }
+    }
     // Client 定义的interface, 接受一个int参数
     public class Target
     {

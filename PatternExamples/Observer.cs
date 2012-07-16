@@ -10,6 +10,9 @@ namespace PatternExamples
     {
         public static void test()
         {
+
+            Console.WriteLine(Utility.HeaderString("Observer"));
+
             subject s = new subject();
             ConcreteObserver o1 = new ConcreteObserver();            
             s.AddObserver(o1);

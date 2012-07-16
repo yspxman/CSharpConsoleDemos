@@ -5,6 +5,22 @@ using System.Text;
 
 namespace PatternExamples
 {
+    class AbstractFactoryClientTest
+    {
+        public static void Test()
+        {
+            Console.WriteLine(Utility.HeaderString("Abstract Factory"));
+
+            IAbstractFactory factoryBJ = new FactoryBJ();
+            factoryBJ.CreateProductCloth().foo();
+            factoryBJ.CreateProductShoes().foo();
+
+            IAbstractFactory factorySH = new FactorySH();
+            factorySH.CreateProductCloth().foo();
+            factorySH.CreateProductShoes().foo();
+        }
+    }
+
     public interface IAbstractFactory
     {
         IProductShoes CreateProductShoes();

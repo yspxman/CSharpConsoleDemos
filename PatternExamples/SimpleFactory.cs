@@ -5,7 +5,20 @@ using System.Text;
 
 namespace PatternExamples
 {
+    class SimpleFactoryClientTest
+    {
+         public static void Test()
+        {
+            Console.WriteLine(Utility.HeaderString("Simple Factory"));
 
+            SimpleProductFactory factory = new SimpleProductFactory();
+            Product PA = factory.CreateProduct("a");
+            Product PB = factory.CreateProduct("b");
+
+            PA.foo();
+            PB.foo();
+        }
+    }
     public interface Product
     {
         void foo();
