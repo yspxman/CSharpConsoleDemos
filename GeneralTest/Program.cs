@@ -13,7 +13,7 @@ namespace GeneralTest
     {
         void dispose();
         event EventHandler Event1;
-        event MyDelegate Event2;
+        event MyDelegate delegate2;
         int member1 { get; set; }
         
         // interface 可以包含以上三种，但不能有成员变量
@@ -24,28 +24,34 @@ namespace GeneralTest
     {
        public void dispose(){;}
        public event EventHandler Event1;
-       public event MyDelegate Event2;
+       public event MyDelegate delegate2;
        public int member1 { get; set; }
-        
+      
+        void foo()
+        {
+            // windows phone 中不支持beginInvoke方法
+           // delegate2.BeginInvoke(
+
+        }
     }
 
     public class MyFace2 : MyFace
     {
-
         //EventHandler<
         public void InvokeEvent()
         {
             // event 没有继承下来，下面的语句编译不通过
             //if (Event1 != null){}
-
         }
-
     }
 
+    /*
     class Program
     {
         static void Main(string[] args)
         {
         }
     }
+    */
+
 }
