@@ -58,11 +58,29 @@ namespace GeneralTest
             //2. 有访问器，必须用相应的delegate变量来调用
             if (generalEvent2 != null)
             {
-                string res = generalEvent2(10);
+                //获取delegate的的list
+                Delegate[] delArray = generalEvent2.GetInvocationList();
+                //然后分别调用，这样可以获取每个delegate调用的返回值，并且可以单独异常处理
+                List<string> resArray = new List<string>();
+                foreach (var v in delArray)
+                {
+                    GeneralEventHandler method = (GeneralEventHandler)v;
+                    // 完整的表述应该加上try catch 语句
+                    try
+                    {
+                        string res = method.Invoke(new Random(DateTime.Now.Millisecond).Next());
+                        resArray.Add(res);
+                        Console.WriteLine("Get GeneralEvent2's return value: {0}", res);
+                    }
+                    catch
+                    {  }
+                    
+                    
+                }
+                //string res = generalEvent2(10);
                 //invoke和直接调用的效果是一样的。
                 //string res = generalEvent2.Invoke(10);
-
-                Console.WriteLine("Get GeneralEvent2's return value: {0}", res);
+                     
             }
         }
     }
@@ -70,11 +88,22 @@ namespace GeneralTest
     public class Subscriber 
     {
         // 对于subscriber来说，定义一个和delegate原形相同的函数作为event的receiver
-
         // event receiver
         public string OnEventOccurred(int num)
         {
             Console.WriteLine("Event received, OnEventOccurred {0} ", num);
+            return num.ToString();
+        }
+    }
+
+    // another subscriber
+    public class Subscriber2
+    {
+        // 对于subscriber来说，定义一个和delegate原形相同的函数作为event的receiver
+        // event receiver
+        public string OnEventOccurred2(int num)
+        {
+            Console.WriteLine("Event received, OnEventOccurred2 {0} ", num);
             return num.ToString();
         }
     }
@@ -85,10 +114,12 @@ namespace GeneralTest
         {
             Publisher pub = new Publisher();
             Subscriber sub = new Subscriber();
+            Subscriber2 sub2 = new Subscriber2();
             pub.GeneralEvent2 += sub.OnEventOccurred;
+            pub.GeneralEvent2 += sub2.OnEventOccurred2;
+
             pub.FireEvent();
         }
     }
-    
-
+   
 }

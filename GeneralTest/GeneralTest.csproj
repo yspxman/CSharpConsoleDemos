@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="DelegateEvent.cs" />
     <Compile Include="program2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
