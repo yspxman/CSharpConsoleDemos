@@ -8,7 +8,7 @@ namespace GeneralTest
 
     class DerivedClassEvent
     {
-        static void Main(string[] args)
+        public static void ClientTest()
         {
             Circle c = new Circle(10);
             Console.WriteLine("Circle area is {0}", c.Area);
@@ -16,7 +16,6 @@ namespace GeneralTest
             Shape shape = c;
             shape.ShapeChanged += HandleShapeChanged;
             c.Update(100);
-            //Console.Read();
         }
         private static void HandleShapeChanged(object sender, ShapeEventArgs e)
         {

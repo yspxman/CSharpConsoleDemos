@@ -6,7 +6,7 @@ using System.Reflection;
 
 namespace PatternExamples
 {
-    class Client
+    class program
     {
         static void Main(string[] args)
         {
