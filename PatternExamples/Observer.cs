@@ -53,7 +53,7 @@ namespace PatternExamples
 
         public event StatusChangedDelegate StatusChangeHandler;
 
-        // 经典observer的注册和反注册
+        // 经典observer的注册和反注册函数
         public void AddObserver(IChangeObserver observer)
         {
             observers.Add(observer);
@@ -71,7 +71,7 @@ namespace PatternExamples
                 o.StatusChanged();
             }
 
-            //2. 用event通知的方式
+            //2. 用event通知的方式, event的注册和反注册函数其实就是+=和-=，已经被delegate框架实现了
             if (StatusChangeHandler != null)
             {
                 StatusChangeHandler("msg from the traget object!");

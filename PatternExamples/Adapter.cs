@@ -5,10 +5,8 @@ using System.Text;
 
 namespace PatternExamples
 {
-
     class AdapterClientTest
     {
-
        public static void Test()
         {
             Console.WriteLine(Utility.HeaderString("Adapter"));
@@ -36,11 +34,9 @@ namespace PatternExamples
     public class Adapter : Target
     {
         private Adaptee adaptee = new Adaptee();
-
         public override void PrintSth(int a)
         {
             adaptee.PrintStr(a.ToString());
         }
     }
-
 }

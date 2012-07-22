@@ -5,6 +5,7 @@ using System.Text;
 
 namespace GeneralTest
 {
+    //演示如何从派生类调用基类的event
 
     class DerivedClassEvent
     {
@@ -16,6 +17,8 @@ namespace GeneralTest
             Shape shape = c;
             shape.ShapeChanged += HandleShapeChanged;
             c.Update(100);
+
+            Console.WriteLine("Shape harsh code is {0}", c.GetHashCode());
         }
         private static void HandleShapeChanged(object sender, ShapeEventArgs e)
         {
