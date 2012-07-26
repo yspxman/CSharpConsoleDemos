@@ -21,6 +21,8 @@ namespace PatternExamples
             IteratorClientTest.Test();
 
             ObserverClientTest.test();
+
+            CommandClientTest.test();
         }
 
 
