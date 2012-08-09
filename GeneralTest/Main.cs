@@ -17,7 +17,7 @@ namespace GeneralTest
             //Console.Write("SandBox harsh code is {0}", DerivedClassEvent..GetHashCode());
             SandBox.ClientTest();
 
-
+            AttributeDemo.ClientTest();
         }
     }
 }
